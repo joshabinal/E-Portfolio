@@ -6,6 +6,7 @@
   scroll-behavior: smooth;    
 }
 
+/* NavBar Section */
 .navbar{
   background: #131313;
   height: 80px;
@@ -30,8 +31,8 @@
 }
 
 #navbar__logo{
-  background-color: #453bff;
-  background-image: linear-gradient(to top, #0000ff 0%, #14a5ff 100%);
+  background-color: #03001e;
+  background-image: linear-gradient(to top, #fdeff9, #ec38bc, #7303c0);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -66,7 +67,7 @@
 }
 
 .navbar__links:hover{
-  color: #2b4fff;
+  color: #7303c0;
   transition: all 0.3s ease;
 }
 
@@ -148,5 +149,64 @@
   }
 }
 
+/* Main Section */
+.hero{
+  background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
+  padding: 200px 0;
+}
 
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero__heading{
+  font-size: 100px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.hero__heading span{
+  background: #03001e;
+  background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0); 
+  background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.hero__description{
+  font-size: 60px;
+  background: #03001e;
+  background: -webkit-linear-gradient(to right,#ec38bc, #7303c0); 
+  background: linear-gradient(to right,#ec38bc, #7303c0);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.highlight{
+  border-bottom: 4ps solid rgb(132, 0, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .hero__heading{
+    font-size: 60px;
+  }
+
+  .hero__description{
+    font-size: 40px;
+  }
+}
 
