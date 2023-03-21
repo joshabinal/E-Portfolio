@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
+    <!-- NavBar -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo">PORTFOLIO</a>
+        <a href="#home" id="navbar__logo">BeJoKe</a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -21,11 +23,11 @@
             <a href="#home" class="navbar__links" id="home-page">Home</a>
           </li>
           <li class="navbar__item">
-            <a href="#About" class="navbar__links" id="about-page">About</a>
+            <a href="#About" class="navbar__links" id="about-page">Our Works</a>
           </li>
           <li class="navbar__item">
             <a href="#Contact" class="navbar__links" id="contact-page"
-              >Contact</a
+              >Our Team</a
             >
           </li>
         </ul>
@@ -37,7 +39,7 @@
       <div class="hero__container">
         <h1 class="hero__heading">E-<span>Portfolio</span></h1>
         <p class="hero__description">Social and Professional Issues</p>
-        <button class="main__btn"><a href="#">Learning Tasks</a></button>
+        <button class="main__btn"><a href="#">View Works</a></button>
       </div>
     </div>
 
@@ -45,44 +47,47 @@
     <div class="main" id="about">
       <div class="main__container">
         <div class="main__img--container">
-          <div class="main__img--card">JOSHUA BENEDICT KENNETH</div>
+          <div class="main__img--card"><i class="fa-sharp fa-solid fa-users"></i></div>
         </div>
         <div class="main__content">
-          <h1>Our Learning Tasks!</h1>
+          <h1>Check our work!</h1>
           <div class="learning__task">
-            <a href="#">
+            <a href="/learning_tasks/Joshua.html">
               <h2>Teamwork Concepts and Issues</h2>
               <h4>Learning Task 3</h4>
             </a>
-            <p>Created by
+            <p>
+              Created by
               <a href="https://github.com/joshabinal">Joshua Abinal</a>
             </p>
           </div>
           <hr />
           <div class="learning__task">
-            <a href="#">
+            <a href="/learning_tasks/Kenneth.html">
               <h2>Teamwork Concepts and Issues</h2>
               <h4>Learning Task 3</h4>
             </a>
-            <p>Created by
+            <p>
+              Created by
               <a href="https://github.com/kenken2426">Kenneth Relatores</a>
             </p>
           </div>
           <hr />
           <div class="learning__task">
-            <a href="#">
+            <a href="/learning_tasks/Benedict.html">
               <h2>Teamwork Concepts and Issues</h2>
               <h4>Learning Task 3</h4>
             </a>
-            <p>Created by
+            <p>
+              Created by
               <a href="https://github.com/HANZILOT">Benedict Reyes</a>
             </p>
           </div>
-          <hr>
+          <hr />
         </div>
       </div>
     </div>
-    
+
     <!-- Contact -->
     <div class="team" id="team">
       <h1>Our Team</h1>
@@ -90,18 +95,43 @@
         <div class="team__card">
           <h2>Joshua Abinal</h2>
           <p>BSIT 3A Pogi</p>
-          <div class="team__btn"><button><a href="https://github.com/joshabinal" class="team__link">View Profile</a></button></div>
+          <div class="team__btn">
+            <button>
+              <a href="https://github.com/joshabinal" class="team__link"
+                >View Profile</a
+              >
+            </button>
+          </div>
         </div>
         <div class="team__card">
           <h2>Kenneth Relatores</h2>
           <p>BSIT 3A Handsome</p>
-          <div class="team__btn"><button><a href="https://github.com/kenken2426" class="team__link">View Profile</a></button></div>
+          <div class="team__btn">
+            <button>
+              <a href="https://github.com/kenken2426" class="team__link"
+                >View Profile</a
+              >
+            </button>
+          </div>
         </div>
         <div class="team__card">
-          <h2>Benedcit Reyes</h2>
+          <h2>Benedict Reyes</h2>
           <p>BSIT 3A Gwapo</p>
-          <div class="team__btn"><button><a href="https://github.com/HANZILOT" class="team__link">View Profile</a></button></div>
+          <div class="team__btn">
+            <button>
+              <a href="https://github.com/HANZILOT" class="team__link"
+                >View Profile</a
+              >
+            </button>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+      <div class="footer__container">
+        <h5>Copyright &copy; BeJoKe 2023</h5>
       </div>
     </div>
 

@@ -2,13 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
   scroll-behavior: smooth;    
 }
 
 /* NavBar Section */
 .navbar{
-  background: #131313;
+  background: #232323;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -152,7 +152,7 @@
 /* Main Section */
 .hero{
   background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
+  background: linear-gradient(to right, #2c2c2c, #000000);
   padding: 150px 0;
 }
 
@@ -282,7 +282,7 @@
 
 .main__content a {
   text-decoration: none;
-  color: #fff;
+  color: #fe3b6f;
 }
 
 .main__content h1{
@@ -372,6 +372,10 @@ hr {
   background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.fa-sharp.fa-solid.fa-users {
+  font-size: 14rem;
+}
+
 @media screen and (max-width: 1100px){
   .main__container{
     display: grid;
@@ -432,7 +436,7 @@ hr {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   font-size: 2.5rem;
 }
 
@@ -520,4 +524,40 @@ hr {
   .team__wrapper{
     grid-template-columns: 1fr;
   }
+}
+
+.content{
+  justify-content: center;
+  padding: 50px;
+  background-color: #282828;
+}
+
+.content__main p{
+  text-indent: 50px;
+}
+
+.content__main{
+  padding: 50px;
+  color: #fff;
+}
+
+.content__main ul{
+  padding-left: 50px;
+}
+
+.content h2, p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  background-color: #252525;
+}
+
+.footer__container h5{
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
