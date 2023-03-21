@@ -197,14 +197,14 @@
 }
 
 .highlight{
-  border-bottom: 4ps solid rgb(132, 0, 255);
+  border-bottom: 4px solid rgb(132, 0, 255);
 }
 
 .main__btn{
   font-size: 1.5rem;
-  background: #f12711;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ffffff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ed9a9a, #b511f1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ed9a9a, #b511f1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 10px 40px;
   border: none;
   border-radius: 4px;
@@ -259,7 +259,7 @@
 /* Main Section */
 .main{
   background-color: #131313;
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .main__container{
@@ -425,7 +425,7 @@ hr {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
 .team h1{
@@ -490,12 +490,12 @@ hr {
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #131313;
+  background: #ffffff;
   font-size: 1rem;
 }
 
 .team__card button a{
-  color: #fff;
+  color: #1d1d1d;
   text-decoration: none;
 }
 
@@ -550,8 +550,9 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Footer */
 .footer{
-  background-color: #252525;
+  background-color: #131313;
 }
 
 .footer__container h5{
