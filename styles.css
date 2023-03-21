@@ -153,7 +153,7 @@
 .hero{
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 .hero__container{
@@ -186,7 +186,7 @@
 }
 
 .hero__description{
-  font-size: 60px;
+  font-size: 40px;
   background: #03001e;
   background: -webkit-linear-gradient(to right,#ec38bc, #7303c0); 
   background: linear-gradient(to right,#ec38bc, #7303c0);
@@ -198,6 +198,48 @@
 
 .highlight{
   border-bottom: 4ps solid rgb(132, 0, 255);
+}
+
+.main__btn{
+  font-size: 1.5rem;
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.main__btn a{
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main__btn:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #7303c0;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.main__btn:hover{
+  color: #fff;
+}
+
+.main__btn:hover:after{
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -253,6 +295,7 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
+  margin-top: 24px;
   margin-bottom: 32px;
 }
 
@@ -305,6 +348,69 @@ hr {
   background-image: none;
   background-color: #870bd9;
   transition: all 0.3s ease;
+}
+
+.main__img--container{
+  text-align: center; 
+}
+
+.main__img--card{
+  margin: 10px;
+  height: 450px;
+  width: 500px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-image: linear-gradient(to right, #fe3b6f 0%,#870bd9 100%);
+}
+
+#card-2{
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 1100px){
+  .main__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 90%;
+  }
+
+  .main__img--container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__img--card{
+    height: 425px;
+    width: 425px;
+  }
+
+  .main__content{
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .main__content h1{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .main__content h2{
+    font-size: 3rem;
+  }
+
+  .main__content p a{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
 }
 
 
